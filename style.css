@@ -1,0 +1,406 @@
+                /* Reuseable Component */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width:82% ;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+                /* Header Section */
+#header-main{
+    margin: 50px 0px;
+}
+.header-wrapper{
+    background-image: linear-gradient(rgba(7,2,17), rgba(7,2,17,0)), url('images/Banner\ Image.png');
+    width: 1300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    align-items:center;
+    justify-content: end;
+    border-radius: 5px;
+    padding: 100px 0px;
+
+}
+.header-wrapper h1,h3{
+    margin-top: 50px;
+}
+h1{
+    font-family:Merriweather;
+    font-weight: 900;
+    font-size: 72px;
+     height: 95px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  
+}
+h3{
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 32px;
+    height: 40px;
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+}
+
+
+
+              /* Discount Section */
+.holyday-wrapper {
+    margin: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.holyday-wrapper h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 88px;
+    height: 107px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.holyday-wrapper h4{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    height: 29px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+}
+.holyday-wrapper h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    height: 58px;
+   text-align: center;
+   color:rgb(7, 2, 17);
+}
+.holyday-wrapper>img{
+    margin-top:30px;
+    margin-bottom: 80px;
+}
+
+             /* midnight party */
+.midnight-wrapper{
+    background-image: linear-gradient(rgba(7,2,17), rgba(7,2,17,0)), url('images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    align-items:self-start;
+    justify-content:left;
+    border-radius: 5px;
+    margin: 100px 50px;
+}
+.midnight-wrapper h2{
+    font-family:Merriweather;
+    font-weight: 900;
+    font-size: 72px;
+    height: 95px;
+    text-align:left;
+    color: rgb(255, 255, 255);
+    padding: 20px 36px;
+}
+.midnight-wrapper p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    height: 30px;
+    text-align: left;
+    color:rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    margin: 30px 0px;
+}
+.midnight-content {
+    justify-content: left;
+    padding:100px 20px;
+    margin: 20px;
+}
+button{
+    padding: 20px 30px;
+    color:rgb(241, 233, 233);
+    background-color:rgba(15, 15, 15, 0.387);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 700;
+    bottom: 50px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+            /* join-section */
+#join-section{
+     background-image: linear-gradient(rgba(255,0,0,0.1), rgba(255,0,0,0));
+    width: 1320px;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-items:self-start;
+    justify-content:left;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+}
+.join-content *{
+   margin-top: 20px;
+   text-align: center;
+
+}
+.join-content h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 32px;
+}
+.ex-red{
+    color:red;
+    text-align: center;
+}
+.btn2 button{
+    padding: 20px 30px;
+    color:rgb(241, 233, 233);
+    background-color:rgb(255, 0, 0);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    justify-content:end;
+    align-items: center;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 600;
+    bottom: 50px;
+    margin:30px 20px;
+    cursor: pointer;
+ 
+}
+                    /* comming-section */
+.content-wrapper {
+    display: flex;
+   
+    gap:20px;
+    padding:50px 80px;
+}
+.content-wrapper {
+   justify-content:space-between;
+}
+.first-section h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    height: 58px;
+    color:rgb(7, 2, 17);
+    text-align: left;
+}
+.first-section *{
+    padding:10px 10px;
+
+    
+}
+.first-section h2{
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+}
+p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    height: 32px;
+    text-align: left;
+   
+}
+.second-section{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    border:10px solid red;
+    padding:15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.third-section P{
+    margin: 40px 0px;
+}
+
+.content-div{
+    margin-bottom: 20px;
+}
+.third-section .content-div>h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30px;
+    height: 32px;
+    color: rgb(255, 0, 0);
+}
+
+.img-div {
+    padding: 100px 0px;
+}
+
+.third-section {
+    margin-left: 117px;
+}
+            /* gift-section */
+.gift-wrapper {
+    padding: 20px 5px;
+    margin: 30px 5px;
+}
+.gift-content-text {
+    padding: 50px 0px;
+    margin:2px 0px ;
+}
+.gift-content-text h4{
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 600;
+    text-align: left;
+}
+.gift-content-text h2,.content-wrap h1{
+    font-family: Merriweather;
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(7, 2, 17);
+
+}
+.gift-content-text p{
+    margin: 10px 0px;
+    line-height: 28px;
+
+}
+.gift-img-first img{
+   
+    max-width: 30%;
+    margin: 10px 15px;
+    width: 1320px;
+    border-radius: 10px;
+    transition: all.5s;
+    
+}
+.gift-img-first img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.gift-img-second img{
+    max-width: 30%;
+    width: 1320px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    transition: all.5s;
+}
+.gift-img-second img:hover{
+    box-shadow: rgba(148, 19, 19, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+                    /* subscription-section */
+.subs-wrap{
+    background:rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 450px;
+    text-align: center;
+    padding: 80px 20px;
+    margin: 50px 0px;
+    border-radius: 8px;
+}
+.subs-wrap *{
+    margin: 20px 0px;
+
+}
+.content-wrap{
+    text-align: center;
+    margin: 20px auto;
+    padding: 120px 0px;
+    text-align: center;
+    justify-content: center;
+}
+.content-wrap p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input{
+    width:600px;
+    height: 40px;
+    border-radius:10px 0px 0px 10px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding:10px 10px ;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.btn3{
+    background: rgb(255, 0, 0);
+    border-radius: 0px 30px 30px 0px;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    font-family: inter;
+    font-weight: 600;
+    
+}
+            /* footer-section */
+#footer-wrapper{
+    background:rgb(7, 2, 17);
+    height: 450px;
+    text-align: center;
+    padding: 80px 20px;
+    margin: 50px 0px;
+    border-radius: 8px;
+}
+.content-wrap-footer {
+    padding: 50px 0px;
+}
+.footer-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.footer-second *{
+    margin: 0px 20px;
+    padding: 50px 10px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-second{
+    border-top: 1px	solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+
+}
